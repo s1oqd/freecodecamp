@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACC,kBAAW;EACV,OAAO,EAAE,eAAc;EAEtB,gCAAI;IACH,YAAY,EAAE,GAAG;AACpB,YAAK;EACJ,OAAO,EAAE,gBAAe",
+"sources": ["t3.sass"],
+"names": [],
+"file": "t3.css"
+}

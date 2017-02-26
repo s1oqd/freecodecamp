@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,IAAI;EACH,gBAAgB,EAAE,OAAO",
+"sources": ["../sass/t2.sass"],
+"names": [],
+"file": "t2.css"
+}

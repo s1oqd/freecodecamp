@@ -1,0 +1,8 @@
+.panel .panel-body {
+  display: none !important; }
+  .panel .panel-body .btn-box .btn {
+    margin-right: 3px; }
+.panel .show {
+  display: block !important; }
+
+/*# sourceMappingURL=t3.css.map */

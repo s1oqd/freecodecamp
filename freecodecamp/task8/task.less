@@ -1,0 +1,135 @@
+*{ margin: 0; padding: 0; border:0; }
+.quarter (@color) {
+  display: inline-block;
+  width:220px;
+  height:220px;
+  background-color : @color;
+  border: 12px solid #333;
+  opacity:0.5;
+  z-index: -100;
+}
+body{
+  background-color: #2a2a2a;
+  .container{
+    margin: 0 auto;
+    width:488px;
+    height:488px;
+    position: relative;
+    top: 10vmin;
+    text-align: center;
+    .round{
+      .row{
+        .b-r{
+          margin-left: -4px;
+          margin-top: -3px;
+          border-bottom-right-radius : 100%;
+          .quarter(#1C86EE);
+        }
+        .b-l{
+          margin-top: -3px;
+          margin-right: -4px;
+          border-bottom-left-radius : 100%;
+          .quarter(#FFFF00)
+        }
+        .t-l{
+          margin-bottom: -3px;
+          margin-right: -4px;
+          border-top-left-radius : 100%;
+          .quarter(#00CD00)
+        }
+        .t-r{
+          margin-bottom: -3px;
+          margin-left: -4px;
+          border-top-right-radius : 100%;
+          .quarter(#FF0000)
+        }
+      }
+    }
+    .center{
+      position : absolute;
+      top:25%;
+      left:25%;
+      width:220px;
+      height:220px;
+      border: 12px solid #333;
+      border-radius:100%;
+      background-color:#ECE7EE;
+      h1{
+        font-family: 'Alfa Slab One', cursive;
+        color : #222;
+        font-size: 3.2em;
+        margin-top : 35px;
+        span{
+          font-size : 0.3em;
+          position : relative;
+          top : -20px;
+        }
+      }
+      p{
+        margin-top:5px;
+        color : #222;
+        font-family : 'Oswald',Arial,sans;
+        font-size:0.7em;
+        text-align:center;
+      }
+      .box{
+        .column{
+          display: inline-block;
+          width : 60px;
+          text-align:center;
+          .count{
+            margin:auto;
+            border : 4px solid #222;
+            border-radius : 10px;
+            color : #d43f3a;
+            font-size : 2em;
+            background-color: #32050C;
+          }
+          .round-btn{
+            width : 20px;
+            height : 20px;
+            position: relative;
+            background-color : yellow;
+            border-radius : 100%;
+            border : 4px solid #383838;
+            margin:auto;
+            top : -5px;
+            cursor:pointer;
+            &:active{
+              box-shadow : 0 1px 1px #292929;
+              top : -4px;
+            }
+          }
+          .btn-red{
+            background-color : #FC0102;
+          }
+        }
+      }
+      .switchBox{
+        margin-top: 10px;
+        p{ display: inline-block;  }
+        .switchBorder{
+          display: inline-block;
+          position:relative;
+          top:5px;
+          height:20px;
+          width:40px;
+          border-radius:2px;
+          background-color : #222;
+          cursor: pointer;
+          .switch{
+            position:absolute;
+            height:16px;
+            width: 16px;
+            border : 2px solid #333;
+            border-radius:4px;
+            background-color : #3193DE;
+          }
+        }
+      }
+    }
+  }
+}
+.led-off{
+  color:#430710;
+}

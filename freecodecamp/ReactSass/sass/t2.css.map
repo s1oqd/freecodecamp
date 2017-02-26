@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAII,qBAAG;EACF,YAAY,EAAE,GAAG;EACjB,KAAK,EAAE,IAAI;EACX,aAAa,EAAE,GAAG",
+"sources": ["t2.sass"],
+"names": [],
+"file": "t2.css"
+}
